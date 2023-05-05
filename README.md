@@ -27,24 +27,30 @@ If you wish to run this application locally using Node you can install all the n
 To use This app you can use your preferred API development tool like insomnia or postman to make http requests. Then start the server by typing node server.js into the command line.
 
 For a GET all route when running locally use http://localhost:3001/api/categories || tags || products
+
 ex: http://localhost:3001/api/categories
 
 For a GET by id route use http://localhost:3001/api/categories || tags || products/:id
+
 ex: http://localhost:3001/api/products/1
 
 For a POST route use http://localhost:3001/api/categories || tags || products
+
 ex: http://localhost:3001/api/categories
 
 For a PUT route use http://localhost:3001/api/categories || tags || products/:id
+
 ex: http://localhost:3001/api/categories/3
 
 For a DELETE route use http://localhost:3001/api/categories || tags || products/:id
+
 ex: http://localhost:3001/api/tags/4
 
 ![Alt text](assets/images/Screenshot%202023-05-04%20214328.png)
 ![Alt text](assets/images/Screenshot%202023-05-04%20214344.png)
 ![Alt text](assets/images/Screenshot%202023-05-04%20214515.png)
 ![Alt text](assets/images/Screenshot%202023-05-04%20214533.png)
+![Alt text](assets/images/Screenshot%202023-05-04%20214930.png)
 
 ## How to Contribute
 
