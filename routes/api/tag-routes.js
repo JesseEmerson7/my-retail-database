@@ -50,10 +50,11 @@ router.put('/:id', async (req, res) => {
     await putTagName.save();
     res.status(200).json({
       "message":"Your tag has been updated",
-      putCategoryName
+      putTagName
     })
   } catch (error) {
     res.status(400).json(error);
+    console.log(error);
   }
 });
 
@@ -67,11 +68,11 @@ router.delete('/:id', async (req, res) => {
     });
   
     if(!destroyedTag){
-      res.status(404).json({message:'No tag found with this id'})
+      res.status(404).json({message:`No tag found with id: ${req.params.id}`})
       return;
     };
     res.status(200).json({
-      message:'Tag DELETED',
+      message:`Tag deleted at id: ${req.params.id}`,
       destroyedTag
     })
   } catch (error) {
