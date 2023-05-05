@@ -22,7 +22,7 @@ If you wish to run this application locally using Node you can install all the n
 
 ## Usage
 
-[View demo video here!](https://drive.google.com/file/d/1XSNjfcl6vlrHvQBYukCUNlr3x6DRbtYX/view?usp=share_link)
+[View demo video here!](https://drive.google.com/file/d/1fUCjDn5wdplaDI9xdYR-QxOEpR9XJLRN/view?usp=sharing)
 
 To use This app you can use your preferred API development tool like insomnia or postman to make http requests. Then start the server by typing node server.js into the command line.
 
